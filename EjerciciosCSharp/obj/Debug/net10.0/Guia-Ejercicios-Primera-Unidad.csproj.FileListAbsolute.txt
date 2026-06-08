@@ -1,0 +1,15 @@
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\bin\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.exe
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\bin\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.deps.json
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\bin\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.runtimeconfig.json
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\bin\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.dll
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\bin\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.pdb
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.AssemblyInfoInputs.cache
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.AssemblyInfo.cs
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.csproj.CoreCompileInputs.cache
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.sourcelink.json
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.dll
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\refint\Guia-Ejercicios-Primera-Unidad.dll
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.pdb
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\Guia-Ejercicios-Primera-Unidad.genruntimeconfig.cache
+C:\Users\user\Proyectos-POO\Guia-Ejercicios-Primera-Unidad\EjerciciosCSharp\obj\Debug\net10.0\ref\Guia-Ejercicios-Primera-Unidad.dll
