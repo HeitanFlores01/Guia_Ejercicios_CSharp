@@ -1,18 +1,18 @@
 namespace EjerciciosCSharp.EstructurasControlCondicionales
 
 {
-    public class AnioBisiestoDiasMes
+    public class ValidarFecha
     {
-        public AnioBisiestoDiasMes(int anio, int mes)
+        public ValidarFecha(int anio, int mes, int dia)
         {
-            bool esBisiesto = false;
+             bool esBisiesto = false;
+             int diasMaximos;
 
             // Evaluamos que el año sea bisiesto
             if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0))
             {
                 Console.WriteLine("El año es bisiesto");
                 esBisiesto = true;
-    
             }
             else
             {
@@ -20,26 +20,40 @@ namespace EjerciciosCSharp.EstructurasControlCondicionales
                 esBisiesto = false;
             }
 
-            // Evaluamos los días que tiene cada mes 
+            // validación de rango de días de cada mes, el máximo dia qye tiene cada uno
             if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12)
             {
-                Console.WriteLine("Este mes tiene 31 dias");
+                diasMaximos = 31;
             }
             else if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
             {
-                Console.WriteLine("Este mes tiene 30 dias");
+                diasMaximos = 30;
             }
             else if (mes == 2)
             {
-                // Se evalúa si es del año bisiesto
+                // Se evalúa si el mes tiene 29 días para el año bisiesto
                 if (esBisiesto == true)
                 {
-                    Console.WriteLine("Febrero tiene 29 días");
+                    diasMaximos = 29;
                 }
                 else
                 {
-                    Console.WriteLine("Febrero tiene 28 dias");
+                    diasMaximos = 28;
                 }
+            }
+            else
+            {
+                diasMaximos = 0;
+            }
+
+            // Evalúa que los días estén en el rango estimado
+            if (dia >= 1 && dia <= diasMaximos)
+            {
+                Console.WriteLine("La fecha es valida y real");
+            }
+            else
+            {
+                Console.WriteLine("La fecha es inválida");
             }
         }
     }

@@ -1,7 +1,10 @@
 ﻿// Aca se ejecutaran todos los ejercicios de la unidad 1 
 
-
 using EjerciciosCSharp.EstructurasControlCondicionales;
+using EjerciciosCSharp.VariablesOperadores;
+using EjerciciosCSharp.EstructuresControlCiclos;
+using EjerciciosCSharp.ArreglosUnidimensionales;
+using EjerciciosCSharp.ArreglosBidimensionales;
 
 namespace EjerciciosCSharp.VariablesOperadores
 {
@@ -23,7 +26,7 @@ namespace EjerciciosCSharp.VariablesOperadores
             // Console.WriteLine("Ingrese la temperatura");
             // float temperatura = float.Parse(Console.ReadLine()!);
 
-            // Console.WriteLine("---MENU DE OPCIONES---");
+            // Console.WriteLine("---MENU DE OPCIONES CONVERSION DE TEMPERATURA---");
             // Console.WriteLine("1. Celsius a Fahrenheit"); 
             // Console.WriteLine("2. Celsius a Kelvin");
             // Console.WriteLine("3. Fahrenheit a Celsius");
@@ -196,14 +199,125 @@ namespace EjerciciosCSharp.VariablesOperadores
             // CalculadoraDescuentos calculadoraDescuentos = new CalculadoraDescuentos(monto);
             // ================================================================================
 
-            Console.WriteLine("Ingrese un año por favor");
-            int anio = int.Parse(Console.ReadLine()!);
+            // Console.WriteLine("Ingrese un año por favor");
+            // int anio = int.Parse(Console.ReadLine()!);
 
-            Console.WriteLine("Ingrese un mes (1 - 12)");
-            int mes = int.Parse(Console.ReadLine()!);
+            // Console.WriteLine("Ingrese un mes (1 - 12)");
+            // int mes = int.Parse(Console.ReadLine()!);
 
-            AnioBisiestoDiasMes anioBisiestoDiasMes = new AnioBisiestoDiasMes(anio, mes);
+            // AnioBisiestoDiasMes anioBisiestoDiasMes = new AnioBisiestoDiasMes(anio, mes);
+            // =============================================================================
 
+            // Console.WriteLine("Ingrese un año por favor");
+            // int anio = int.Parse(Console.ReadLine()!);
+
+            // Console.WriteLine("Ingrese un mes (1 - 12)");
+            // int mes = int.Parse(Console.ReadLine()!);
+
+            // Console.WriteLine("Ingrese un dia");
+            // int dia = int.Parse(Console.ReadLine()!);
+
+            // ValidarFecha validarFecha = new ValidarFecha(anio, mes, dia);
+            // ===========================================================================
+
+            // Console.WriteLine("Ingrese el monto a retirar");
+            // int monto = int.Parse(Console.ReadLine()!);
+
+            // CajeroAutomatico cajeroAutomatico = new CajeroAutomatico(monto);
+            // ===========================================================================
+
+            // ================ Bloque 3: Estructuras de Control - Ciclos =================
+
+            // Console.WriteLine("Ingrese el numero tabla que desea ver");
+            // int tabla = int.Parse(Console.ReadLine()!);
+
+            // TablaMultiplicarExtendida tablaMultiplicarExtendida = new TablaMultiplicarExtendida(tabla);
+            // ===========================================================================================
+
+            // Console.WriteLine("Ingrese un numero para inicio");
+            // int n1 = int.Parse(Console.ReadLine()!);
+
+            // Console.WriteLine("Ingrese un numero de rango final");
+            // int n2 = int.Parse(Console.ReadLine()!);
+
+            // NumerosPrimos numerosPrimos = new NumerosPrimos(n1, n2);
+            // ================================================================
+
+            // Console.WriteLine("Ingrese un numero por favor");
+            // int n = int.Parse(Console.ReadLine()!);
+
+            // SerieFibonacci serieFibonacci = new SerieFibonacci(n);
+            // ===================================================================
+
+            // Console.WriteLine("Ingrese el valor de n por favor");
+            // int n = int.Parse(Console.ReadLine()!);
+
+            // Console.WriteLine("Ingrese el valor de r");
+            // int r = int.Parse(Console.ReadLine()!);
+
+            // FactorialCombinaciones factorialCombinaciones = new FactorialCombinaciones(n, r);
+            // =================================================================================
+
+            // JuegoAdivinanza juegoAdivinanza = new JuegoAdivinanza();
+            // =============================================================================
+
+            // ValidacionContrasena validacionContrasena = new ValidacionContrasena();
+            // =============================================================================
+
+            // Console.WriteLine("---GENERADOR DE PATRONES DE ASTERISCOS---");
+            // Console.WriteLine("1. Triangulo");
+            // Console.WriteLine("2. Triangulo invertido");
+            // Console.WriteLine("3. Cuadrado hueco");
+            // int opcion = Convert.ToInt32(Console.ReadLine());
+
+            // Console.Write("Digita el tamano de la figura: ");
+            // int tamano = Convert.ToInt32(Console.ReadLine());
+
+            // PatronAsteriscos patronAsteriscos = new PatronAsteriscos(opcion, tamano);
+            // =============================================================================
+
+            // CalculadoraMenu calculadoraMenu = new CalculadoraMenu();
+            // =============================================================================
+
+            // ========== Bloque 4: Arreglos Unidimensionales =============================
+
+            // Console.Write("Digita la cantidad de calificaciones (n): ");
+            // int n = Convert.ToInt32(Console.ReadLine());
+
+            // EstadisticaCalificaciones estadisticaCalificaciones = new EstadisticaCalificaciones(n);
+            // =======================================================================================
+
+            // Console.Write("Digita el numero que deseas buscar: ");
+            // int buscar = Convert.ToInt32(Console.ReadLine());
+
+            // BusquedaOrdenamiento busquedaOrdenamiento = new BusquedaOrdenamiento(buscar);
+            // =======================================================================================
+
+            // Console.Write("Digita el tamano del arreglo (N): ");
+            // int n = Convert.ToInt32(Console.ReadLine());
+
+            // RotacionArreglo rotacionArreglo = new RotacionArreglo(n);
+            // ==================================================================================
+
+            // FrecuenciaElementos frecuenciaElementos = new FrecuenciaElementos();
+            // ==================================================================================
+
+            // ArregloTemperaturas arregloTemperaturas = new ArregloTemperaturas();
+            // ==================================================================================
+
+            // ==================== Bloque 5: Arreglos Bidimensionales ==========================
+
+            // Console.Write("Digite la cantidad de estudiantes: ");
+            // int n = Convert.ToInt32(Console.ReadLine());
+
+            // MatrizNotasParcial matrizNotasParcial = new MatrizNotasParcial(n);
+            // ==================================================================================
+
+            // JuegoGato juegoGato = new JuegoGato();
+            // ==================================================================================
+
+            // InventarioSimple inventarioSimple = new InventarioSimple();
+            // ==================================================================================
         }
     }
 }
